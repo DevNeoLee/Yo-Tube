@@ -1,0 +1,33 @@
+
+
+.sideList {
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+    height: 100%;
+}
+
+.sideItem {
+    font-size: 0.87rem;
+    font-weight: 800;
+    margin: 0;
+    padding: 0.9rem;
+    display: flex;
+    height: 1.3rem;
+    /* background: rgb(252, 250, 250); */
+    /* border-bottom: 0.5px solid gray; */
+}
+
+.sideItem img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.6rem 1.5rem 0 1rem;
+    align-items: center;
+}
+
+
+.sideList hr {
+    margin: 0;
+    margin: 1.5rem;
+    opacity: 0.2;
+}

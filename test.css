@@ -1,0 +1,137 @@
+/* setting for searched result */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+}
+
+.boxA {
+    background: lightyellow;
+    border: 2px solid black;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+}
+
+ul {
+    background: lightblue;
+ 
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    /* grid-template-rows: repeat(auto-fit, minmax(250px, 1fr)); */
+    /* justify-items: center;
+    align-items: center; */
+    border: 3px solid darkgreen;
+}
+
+.content {
+    margin: 0.5rem;
+    list-style: none;
+    display: flex;
+    background: lightgreen;
+    border: 1px solid gray;
+    padding: 1rem;
+    max-height: 350px;
+    width: 70%;
+    overflow: hidden;
+}
+
+img {
+    width: 220px;
+    /* justify-content: center; */
+}
+
+.textContent {
+    padding: 0.5rem;
+}
+
+.textContent p {
+    /* display: none; */
+    /* display: block; */
+    word-break: break-all;
+    /* white-space: normal; */
+
+    display: inline-block;
+
+}
+
+/* setting for 대문 homepate */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 25% 75%;
+    overflow: none;
+}
+
+.boxA {
+    background: lightyellow;
+    border: 2px solid black;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+}
+
+ul {
+    background: lightblue;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+}
+
+.content {
+    padding: 1rem;
+    margin: 1rem;
+    list-style: none;
+    background: light green;
+    border: 1px solid gray;
+    height: 250px;
+    width: 250px;
+    justify-self: center;
+    align-self: center;
+}
+
+.videoContent {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    
+    padding: 0.5rem;
+}
+
+.textContent {
+    padding: 0.5rem;
+}
+
+.textContent p {
+    display: none;
+} */
+
+

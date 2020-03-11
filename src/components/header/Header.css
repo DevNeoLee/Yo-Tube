@@ -1,0 +1,56 @@
+
+.headerContainer {
+    display: grid;
+    grid-template-columns: 1fr 7fr 2fr;
+    height: 8vh; 
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuContainer {
+    display: Grid;
+    grid-column-gap: 1.1rem;
+    grid-template-columns: 3rem 9rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamMenu {
+    margin: 1.1rem;
+    width: 1.8rem;
+}
+
+.logo {
+    width: 6.0rem;
+    grid: 1;
+}
+
+.container {
+        flex-grow: 1;
+         /* background: lightblue; */
+        display: Grid;
+        grid-column-gap: 1.3rem;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+.createIcon {
+    width: 1.7rem;
+}
+
+.appIcon {
+    width: 1.35rem;
+}
+
+.settingIcon {
+    width: 1.4rem;
+}
+
+.signinIcon {
+    width: 7.3rem;
+    /* padding: 0 0.7rem 0 0;  */
+}
+
